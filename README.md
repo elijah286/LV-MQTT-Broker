@@ -1,5 +1,13 @@
 
 # LV-MQTT-Broker
+
+<!-- labview-ci:dashboard -->
+## LabVIEW CI
+
+[![LabVIEW CI dashboard](https://img.shields.io/badge/LabVIEW%20CI-dashboard-2ea44f)](https://elijah286.github.io/LV-MQTT-Broker/)
+
+LabVIEW CI runs on every pull request. See the [**CI dashboard**](https://elijah286.github.io/LV-MQTT-Broker/) for build status, VI Analyzer results, VI diffs, and mass-compile reports.
+
 Native LabVIEW MQTT Broker Server
 
 [![Image](https://www.vipm.io/package/labview_open_source_project_lib_mqtt_broker/badge.svg?metric=installs)](https://www.vipm.io/package/labview_open_source_project_lib_mqtt_broker/) [![Image](https://www.vipm.io/package/labview_open_source_project_lib_mqtt_broker/badge.svg?metric=stars)](https://www.vipm.io/package/labview_open_source_project_lib_mqtt_broker/)
