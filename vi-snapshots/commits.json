@@ -1,0 +1,1306 @@
+[
+  {
+    "sha": "f470c6739c8f7da6e45442361d766363772eaa07",
+    "short": "f470c67",
+    "message": "Add LabVIEW CI pipeline",
+    "author": "Elijah Kerry",
+    "date": "2026-09-30T10:23:43-05:00",
+    "vi_count": 180
+  },
+  {
+    "sha": "a2dbfb757c1b613e53add785ceac8152184a910e",
+    "short": "a2dbfb7",
+    "message": "Update to MQTT Connection 4.1.2 (fixes bugs with PINGREQ-PINGRESP) + Adds support for injecting a DebugTerminal class in",
+    "author": "Francois Normandin",
+    "date": "2024-01-14T12:30:36-08:00",
+    "vi_count": 180
+  },
+  {
+    "sha": "e74c5dad3e71449d8d5ae4682d52116647ba2c4d",
+    "short": "e74c5da",
+    "message": "[Fix: 178] Invalid packet could be published if error in the core build packet methods.",
+    "author": "Francois Normandin",
+    "date": "2024-01-01T08:23:58-08:00",
+    "vi_count": 178
+  },
+  {
+    "sha": "018a3f92b5fd4880d07357f3617176e03fc2fe2f",
+    "short": "018a3f9",
+    "message": "- Updated the MQTT Control Packet dependency to fix issue with decoding passwords from Connect packets - Disabled the We",
+    "author": "Francois Normandin",
+    "date": "2022-08-16T07:48:20-07:00",
+    "vi_count": 178
+  },
+  {
+    "sha": "2ca541687f1118ead03193d261a7af778480e809",
+    "short": "2ca5416",
+    "message": "[Feature: 173] Addition of Get Nb Connections accessor Added optimization in the session discarding for disconnected pac",
+    "author": "Francois Normandin",
+    "date": "2022-08-14T20:24:33-07:00",
+    "vi_count": 178
+  },
+  {
+    "sha": "1ba8a87516f64d9d7a7197596ac17ed06e79a87d",
+    "short": "1ba8a87",
+    "message": "[Fix: 176] unsubscribe from topic when session has more than one topic now searches and removes correctly the sessions i",
+    "author": "Francois Normandin",
+    "date": "2022-08-14T19:53:26-07:00",
+    "vi_count": 177
+  },
+  {
+    "sha": "f02ca07667210a15ba0eca6145110d4e888f976b",
+    "short": "f02ca07",
+    "message": "[Feature: 173] Addition of Get NbConnections accessor method",
+    "author": "Francois Normandin",
+    "date": "2022-05-08T11:23:14-07:00",
+    "vi_count": 177
+  },
+  {
+    "sha": "be448390051be4d00a2aaebcbfc4309c0aea963f",
+    "short": "be44839",
+    "message": "saved class with unit test coverage validated",
+    "author": "Francois Normandin",
+    "date": "2022-05-08T09:27:00-07:00",
+    "vi_count": 175
+  },
+  {
+    "sha": "c8ac613fd44f43a41ab5032f9c308b396a792872",
+    "short": "c8ac613",
+    "message": "Exposed a protected method for inspection of Subscriptions and Sessions",
+    "author": "Francois Normandin",
+    "date": "2022-05-08T09:25:17-07:00",
+    "vi_count": 175
+  },
+  {
+    "sha": "03d013fbc41164ccd14848fb39dc54056647ff1b",
+    "short": "03d013f",
+    "message": "Constructor exposes option to support session storage (defaults to True)",
+    "author": "Francois Normandin",
+    "date": "2022-05-08T09:09:49-07:00",
+    "vi_count": 174
+  },
+  {
+    "sha": "7fc1c30c3c6739e01e041475ac52b70a449c7bdb",
+    "short": "7fc1c30",
+    "message": "[Feature] Session Storage can be turned off with an accessor, prior to launching running the server.",
+    "author": "Francois Normandin",
+    "date": "2022-05-08T09:07:12-07:00",
+    "vi_count": 174
+  },
+  {
+    "sha": "c5e781c44d02629a23a6514c81528549d3617800",
+    "short": "c5e781c",
+    "message": "-Updated the code base to common Connection base class - Fixed a unit test following password decoding fix that should n",
+    "author": "Francois Normandin",
+    "date": "2022-05-08T08:03:57-07:00",
+    "vi_count": 167
+  },
+  {
+    "sha": "a4308e64189de07026e749dc8499a3c0cc5d1e8e",
+    "short": "a4308e6",
+    "message": "Adjusted DropVI icons",
+    "author": "Francois Normandin",
+    "date": "2021-05-24T07:55:49-04:00",
+    "vi_count": 167
+  },
+  {
+    "sha": "3d4de27e545ea975085881ec87805df8ff6e99d3",
+    "short": "3d4de27",
+    "message": "- Addition of a PacketTracer virtual class for extension (notification on each Incoming and Outgoing packets. - Develope",
+    "author": "Francois Normandin",
+    "date": "2021-05-23T10:50:57-04:00",
+    "vi_count": 167
+  },
+  {
+    "sha": "0582aacc902724a12531c1344621fd147cd6c6b5",
+    "short": "0582aac",
+    "message": "Generates a MQTT Base public event on incoming Publish packets received from any source.",
+    "author": "Francois Normandin",
+    "date": "2021-05-23T09:57:24-04:00",
+    "vi_count": 162
+  },
+  {
+    "sha": "c717acaff6eb487a50600e7681fac899d8883311",
+    "short": "c717aca",
+    "message": "Server process now monitors a single Stop event instead of registering to all events and ignoring them.",
+    "author": "Francois Normandin",
+    "date": "2021-05-23T09:48:19-04:00",
+    "vi_count": 162
+  },
+  {
+    "sha": "5eb0872963682a8cbd8254583d36ff397987e010",
+    "short": "5eb0872",
+    "message": "[Fix: 162] Disabled the DUP packet resend feature until it is implemented and demonstrated to work with unit testing",
+    "author": "Francois Normandin",
+    "date": "2021-01-01T12:33:54-05:00",
+    "vi_count": 162
+  },
+  {
+    "sha": "36799aa9cabdbd678c207f33c022da2da891487c",
+    "short": "36799aa",
+    "message": "Updated the password test after the fix for length-prefixed password in Connect packet",
+    "author": "Francois Normandin",
+    "date": "2020-12-12T18:56:58-05:00",
+    "vi_count": 161
+  },
+  {
+    "sha": "baeace469c48c39d7f775b2a41d67a3892f7ef0a",
+    "short": "baeace4",
+    "message": "[Fix: 161] Added a Unit Test (manual) to validate if client correctly acknowledges the packets in QoS > 0",
+    "author": "Francois Normandin",
+    "date": "2020-12-12T16:44:48-05:00",
+    "vi_count": 161
+  },
+  {
+    "sha": "8ab3a59c3b1db1da978ec172787fee32b008036b",
+    "short": "8ab3a59",
+    "message": "Updated the unit tests to support new error schemes intrioduced in Client 3.1.4 where sessions are in DVR and API calls ",
+    "author": "Francois Normandin",
+    "date": "2020-11-03T14:55:58-05:00",
+    "vi_count": 160
+  },
+  {
+    "sha": "1adea8a0365f1d6877c8cba9e9c970d17ae7c091",
+    "short": "1adea8a",
+    "message": "- Fixed a last minute QoS = 0 bug after implementing QoS 1 and 2. - Renamed the topicFilter and subscription classes to ",
+    "author": "Francois Normandin",
+    "date": "2020-11-01T10:29:44-05:00",
+    "vi_count": 160
+  },
+  {
+    "sha": "e2e322daf8bb38930ef59847eecc57c4b8073b1c",
+    "short": "e2e322d",
+    "message": "Fixed an issue with Flattening Packets which should not add reserved packet to the collection",
+    "author": "Francois Normandin",
+    "date": "2020-11-01T07:18:18-05:00",
+    "vi_count": 160
+  },
+  {
+    "sha": "f38df6f3d700b934799f6032a16913ea1109b455",
+    "short": "f38df6f",
+    "message": "rearranged tests",
+    "author": "Francois Normandin",
+    "date": "2020-10-31T18:36:52-04:00",
+    "vi_count": 159
+  },
+  {
+    "sha": "84b1970f23b1d81b452841311ff51c0223dcdaff",
+    "short": "84b1970",
+    "message": "- Migrated responsibility for stored sessions from Session core to the server, which has more timely access to both subs",
+    "author": "Francois Normandin",
+    "date": "2020-10-31T18:22:45-04:00",
+    "vi_count": 159
+  },
+  {
+    "sha": "f6dc1db75b3e9abe6e4d3fabb0153cd77097d7b8",
+    "short": "f6dc1db",
+    "message": "started to address session present workflow for storing sessions during disconnection",
+    "author": "Francois Normandin",
+    "date": "2020-10-31T09:55:07-04:00",
+    "vi_count": 145
+  },
+  {
+    "sha": "15a6d27ac5318ff20a34b42d2399ea5fdfc50084",
+    "short": "15a6d27",
+    "message": "Added unit tests for 4.3.2-1 and 4.3.3-1",
+    "author": "Francois Normandin",
+    "date": "2020-10-31T09:10:08-04:00",
+    "vi_count": 144
+  },
+  {
+    "sha": "45de7e0b294cbdb21697e3c48a41591157c3a2c7",
+    "short": "45de7e0",
+    "message": "- Fixed issue with private events not being created in Server's onCreate (for subscription relayed messages) - Cleared t",
+    "author": "Francois Normandin",
+    "date": "2020-10-31T08:22:25-04:00",
+    "vi_count": 142
+  },
+  {
+    "sha": "94a7b3eeb0f27869c50efb2acb1c5d7c8a583282",
+    "short": "94a7b3e",
+    "message": "Merge QoS (Application Message within Subscription)",
+    "author": "Francois Normandin",
+    "date": "2020-10-30T19:42:08-04:00",
+    "vi_count": 142
+  },
+  {
+    "sha": "ba12323c69bdd3a4c3bbd6b9f0e3e4061c6c2226",
+    "short": "ba12323",
+    "message": "Subscription and Topic Filter moved from Base to Server, since the Client never bothers with those concepts. (A client s",
+    "author": "Francois Normandin",
+    "date": "2020-10-30T18:50:30-04:00",
+    "vi_count": 141
+  },
+  {
+    "sha": "45691903b72f127673290abccfe84a7c20931d77",
+    "short": "4569190",
+    "message": "[MQTT-4.8.0-1] Protocol Violation causes a disconnection of the endpoint [MQTT-2.3.1-6] QoS = 2 is enabled",
+    "author": "Francois Normandin",
+    "date": "2020-10-28T13:16:39-04:00",
+    "vi_count": 107
+  },
+  {
+    "sha": "b6e90f8b604cb2c952a302fc7576d3716479a5c9",
+    "short": "b6e90f8",
+    "message": "[MQTT-6.0.0-2] MQTT Engine does not assume that control packets are aligned with websocket frame boundaries [MQTT-6.0.0-",
+    "author": "Francois Normandin",
+    "date": "2020-10-28T07:52:33-04:00",
+    "vi_count": 106
+  },
+  {
+    "sha": "3737cc71e08446e8742b4ce36ca6eaf0d4e20017",
+    "short": "3737cc7",
+    "message": "[MQTT-6.0.0-3] Client send mqtt as subprotocol [MQTT-6.0.0-4] Server responds with mqtt as subprotocol",
+    "author": "Francois Normandin",
+    "date": "2020-10-25T20:38:55-04:00",
+    "vi_count": 105
+  },
+  {
+    "sha": "ebe0d95000062261f3528c73666c2834e9478745",
+    "short": "ebe0d95",
+    "message": "[MQTT-6.0.0-1] Sending a Text Frame causes an immediate disconnection",
+    "author": "Francois Normandin",
+    "date": "2020-10-25T19:29:59-04:00",
+    "vi_count": 103
+  },
+  {
+    "sha": "1dd9fdd319a96787da053b6b310e2c4ffd241fc1",
+    "short": "1dd9fdd",
+    "message": "Refactored the tests to ue a single server and run all tests sequentially",
+    "author": "Francois Normandin",
+    "date": "2020-10-25T18:39:50-04:00",
+    "vi_count": 101
+  },
+  {
+    "sha": "ec0087398e5e9732000125d8e257995a9c24a061",
+    "short": "ec00873",
+    "message": "- Migration of project to use the MQTT Packages published (removed all non-server code from repo) - Unit Testing folder ",
+    "author": "Francois Normandin",
+    "date": "2020-10-22T07:45:48-04:00",
+    "vi_count": 101
+  },
+  {
+    "sha": "fcb4a0bb6e4420da052ffa7cdd7ef32ef8df38fd",
+    "short": "fcb4a0b",
+    "message": "- Unit Tests changes to follow new abstraction layer for Connection - Unit Test project dependencies on MQTT Connection ",
+    "author": "Francois Normandin",
+    "date": "2020-10-20T15:12:46-04:00",
+    "vi_count": 101
+  },
+  {
+    "sha": "e7e6508ea0866394e4f423af061832fa1e523d67",
+    "short": "e7e6508",
+    "message": "- Moved Control Packets, Client, Session, Base and Connection out of project - Relink to depend on MQTT packages (vi.lib",
+    "author": "Francois Normandin",
+    "date": "2020-10-19T18:24:56-04:00",
+    "vi_count": 95
+  },
+  {
+    "sha": "bb3077a87e82c0e6817c83e6c944378151b2bf87",
+    "short": "bb3077a",
+    "message": "moved test file out of library folder",
+    "author": "Francois Normandin",
+    "date": "2020-10-18T19:23:07-04:00",
+    "vi_count": 269
+  },
+  {
+    "sha": "58c62708a1049d0c577ed0e27c7fd76e85ade7e1",
+    "short": "58c6270",
+    "message": "deleted obsolete files",
+    "author": "Francois Normandin",
+    "date": "2020-10-18T19:21:41-04:00",
+    "vi_count": 269
+  },
+  {
+    "sha": "cddfb7b8f394fa3f86183fc871ce231117ede30f",
+    "short": "cddfb7b",
+    "message": "Increase speed of test for random number generation so that QoS effect is visible",
+    "author": "Francois Normandin",
+    "date": "2020-10-18T19:16:14-04:00",
+    "vi_count": 274
+  },
+  {
+    "sha": "07337fd7b965e222e88ffb20a0a1a0660352178b",
+    "short": "07337fd",
+    "message": "- Addition of MQTT Websockets (server and client) - Reorganized MQTT Client and MQTT Server on disk",
+    "author": "Francois Normandin",
+    "date": "2020-10-18T19:09:11-04:00",
+    "vi_count": 274
+  },
+  {
+    "sha": "3de2d7412b857925a7743b3e145a0b151fd46022",
+    "short": "3de2d74",
+    "message": "Added a watchdog on the MQTT Base process",
+    "author": "Francois Normandin",
+    "date": "2020-10-18T12:27:17-04:00",
+    "vi_count": 258
+  },
+  {
+    "sha": "31371046f0e0d4e260e096382816dca0ce73e47e",
+    "short": "3137104",
+    "message": "Completed the Local Queue Connection class with inbound and outbound queues + listener, handshake and challenge question",
+    "author": "Francois Normandin",
+    "date": "2020-10-18T11:45:45-04:00",
+    "vi_count": 258
+  },
+  {
+    "sha": "8e1c93323ce46bd4ee0ce20244a9412e0fb1ca10",
+    "short": "8e1c933",
+    "message": "Mark all code as Separate Compile Code from source",
+    "author": "Francois Normandin",
+    "date": "2020-10-17T17:20:58-04:00",
+    "vi_count": 245
+  },
+  {
+    "sha": "8a6144dd689d4a5179b24d877ba4de0d7f135eb1",
+    "short": "8a6144d",
+    "message": "Close Sessions event now owned by session, not the caller",
+    "author": "Francois Normandin",
+    "date": "2020-10-17T17:11:27-04:00",
+    "vi_count": 245
+  },
+  {
+    "sha": "3338b3d1688019e1f51fc93246fdc15496a3a0d9",
+    "short": "3338b3d",
+    "message": "Completed the abstraction of  Connection and ConnectionHandler",
+    "author": "Francois Normandin",
+    "date": "2020-10-17T13:42:37-04:00",
+    "vi_count": 245
+  },
+  {
+    "sha": "5ca9db75c6b0c496fb08d84bb1ec3d747b97e132",
+    "short": "5ca9db7",
+    "message": "Replaced TCP Connection with more generic connection class in server, client and session",
+    "author": "Francois Normandin",
+    "date": "2020-10-17T09:50:43-04:00",
+    "vi_count": 229
+  },
+  {
+    "sha": "051bd562fd9ccfdeef5c2517b1121093d2a8c7fe",
+    "short": "051bd56",
+    "message": "- Depends on MQTT Control Packets 3.1.1 - Separated Client and Server from Base - Started to abstract Connection from sp",
+    "author": "Francois Normandin",
+    "date": "2020-10-16T19:03:05-04:00",
+    "vi_count": 228
+  },
+  {
+    "sha": "cb08822e79b075d118ff0ca743f161ae3560a360",
+    "short": "cb08822",
+    "message": "[Fix: 152] All asynchronously launched processs now have a reference to front panel to force in-memory for EXE builds (s",
+    "author": "Francois Normandin",
+    "date": "2020-09-15T08:11:07-04:00",
+    "vi_count": 335
+  },
+  {
+    "sha": "d0c80485597306dfbc55231efc0c867b6308c138",
+    "short": "d0c8048",
+    "message": "Added test for conformant client over at least one lossless, ordered protocol (TCP)",
+    "author": "Francois Normandin",
+    "date": "2020-09-07T17:16:18-04:00",
+    "vi_count": 335
+  },
+  {
+    "sha": "58f355594a595d6580fdad22d9c3e7c4842bc0d1",
+    "short": "58f3555",
+    "message": "[MQTT-3.3.2-2] Publishing a topic containing a wildcard gets rejected with error 55015",
+    "author": "Francois Normandin",
+    "date": "2020-09-07T17:01:57-04:00",
+    "vi_count": 334
+  },
+  {
+    "sha": "6c0d2f93a75836cbeff15d9be0e3c3e1959eeb40",
+    "short": "6c0d2f9",
+    "message": "[Fix: 149] Duplicate subscriptions will not duplicate the number of publish packets received",
+    "author": "Francois Normandin",
+    "date": "2020-09-07T16:40:56-04:00",
+    "vi_count": 334
+  },
+  {
+    "sha": "a8dd86d9bcaf88e2d8c9e578e537c96ee02bf4ca",
+    "short": "a8dd86d",
+    "message": "built 1.0.4",
+    "author": "Francois Normandin",
+    "date": "2020-09-07T15:59:29-04:00",
+    "vi_count": 334
+  },
+  {
+    "sha": "dea1703d1a16f74972181eb5e095ef936935ae25",
+    "short": "dea1703",
+    "message": "Session state restore",
+    "author": "Francois Normandin",
+    "date": "2020-09-07T15:28:32-04:00",
+    "vi_count": 334
+  },
+  {
+    "sha": "8a01ac59854f09f6da66a9870f06a4baac064999",
+    "short": "8a01ac5",
+    "message": "- Optimized subscribe and unsubscribe process. - Added a default timeout to allow receiveing suback and unsuback packets",
+    "author": "Francois Normandin",
+    "date": "2020-09-07T14:56:27-04:00",
+    "vi_count": 334
+  },
+  {
+    "sha": "65e4e23cd284b4e6c3bc390b44a11056cd30659d",
+    "short": "65e4e23",
+    "message": "fixed performance issue with async process calls in fast loop",
+    "author": "Francois Normandin",
+    "date": "2020-09-07T14:08:26-04:00",
+    "vi_count": 334
+  },
+  {
+    "sha": "31766e7bcf4cf3916b686534017e1431af9e3942",
+    "short": "31766e7",
+    "message": "TCP Connection process is killed if caller leaves memory",
+    "author": "Francois Normandin",
+    "date": "2020-09-07T10:39:42-04:00",
+    "vi_count": 332
+  },
+  {
+    "sha": "3f4887f0aa19055f5a175dded46d1dbd01759300",
+    "short": "3f4887f",
+    "message": "Added support for TCP Connection to maintain a running process with the connection reference to prevent exiting memory p",
+    "author": "Francois Normandin",
+    "date": "2020-09-07T08:52:41-04:00",
+    "vi_count": 331
+  },
+  {
+    "sha": "fc363b19404bce359b1d63acbc768a7db0964b46",
+    "short": "fc363b1",
+    "message": "Clean Stale Subscriptions",
+    "author": "Francois Normandin",
+    "date": "2020-09-06T14:00:31-04:00",
+    "vi_count": 328
+  },
+  {
+    "sha": "a331c7a6f9c435e112b06ac871b76d4afe21b04d",
+    "short": "a331c7a",
+    "message": "built 1.0.3",
+    "author": "Francois Normandin",
+    "date": "2020-09-06T13:42:00-04:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "5d4eb26c3d6a2b022bec3bda15ccfe245a1d46c4",
+    "short": "5d4eb26",
+    "message": "fixed the Destroy/onDestroy pattern to properly have client and server wipe their respective references. Related to issu",
+    "author": "Francois Normandin",
+    "date": "2020-09-05T07:13:33-04:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "ffd904a6eccf161835f81b5732ec09cbe6c0e231",
+    "short": "ffd904a",
+    "message": "getTopicSubscriptipon: changed the dialog error for a merge error node",
+    "author": "Francois Normandin",
+    "date": "2020-08-31T19:09:46-04:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "db6df6289297df60ed7cbefa7117dc6ec3b3fc19",
+    "short": "db6df62",
+    "message": "Modified the test for 3.3.2-3 so that we verify multiple topics published on the same widlcard subscription",
+    "author": "Francois Normandin",
+    "date": "2020-08-26T19:22:28-04:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "a256539feff6fe65a846eaa46440031428878b88",
+    "short": "a256539",
+    "message": "[Fix: 150] Subscription engine now properly reports the topic filter when a wildcard match occurs.",
+    "author": "Francois Normandin",
+    "date": "2020-08-26T19:05:42-04:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "c20d269a5506fd6e79498323b9b9981bae3c4def",
+    "short": "c20d269",
+    "message": "updated unit tests to show that wildcard publication fails. (Related to issue 150)",
+    "author": "Francois Normandin",
+    "date": "2020-08-26T19:04:54-04:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "67bbb819fee03be919629486b1d1f8527dce802a",
+    "short": "67bbb81",
+    "message": "built 1.0.2",
+    "author": "Francois Normandin",
+    "date": "2020-06-20T14:10:43-04:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "6affc6530ae20d573c3a4dbc6bfabddeee385680",
+    "short": "6affc65",
+    "message": "fixed folder structure where MQTT base methods were still in server class folder.",
+    "author": "Francois Normandin",
+    "date": "2020-06-20T13:04:11-04:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "453e6e1db63094ce818f039a2b45da86e75befe3",
+    "short": "453e6e1",
+    "message": "fixed the topic filter destroy which should reject error when invalid topic filter (no cache reference created)",
+    "author": "Francois Normandin",
+    "date": "2020-06-20T12:21:09-04:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "fec522e2b409aea565ac6e56aee0f95a028ec93f",
+    "short": "fec522e",
+    "message": "Fixed a linkage problem after renaming a node (changed namespace)",
+    "author": "Francois Normandin",
+    "date": "2020-02-11T08:10:12-05:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "5af4beae957979a2be3237eb755f5a1c87bc25d2",
+    "short": "5af4bea",
+    "message": "fixed pingrec -> pingreq linkage",
+    "author": "Francois Normandin",
+    "date": "2019-05-06T07:59:24-04:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "e3b169a6ecc79484fcbb35388728a23fc02b4a11",
+    "short": "e3b169a",
+    "message": "- Changed Destroy for onDestroy methods - Modified the GetServerRef to correctly close ref in case of upstream error",
+    "author": "Francois Normandin",
+    "date": "2019-05-06T07:58:05-04:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "61323342dad874180df3642b0863da2daf5c0166",
+    "short": "6132334",
+    "message": "- removed stale files - renamed PINGREC to PINGREQ for fixing qualified name problem in .ctl private control file - chan",
+    "author": "Francois Normandin",
+    "date": "2019-04-01T19:14:28-04:00",
+    "vi_count": 326
+  },
+  {
+    "sha": "a5ec36ab25db7cdb7bbff307bc58febe93b69f02",
+    "short": "a5ec36a",
+    "message": "Added Serializer class to MQTT Base. Defaults to Flattened String (LabVIEW format to byte array)",
+    "author": "Francois Normandin",
+    "date": "2019-04-01T17:35:31-04:00",
+    "vi_count": 330
+  },
+  {
+    "sha": "b372ff6686f09dfe5a749db09e8c35795b345b3c",
+    "short": "b372ff6",
+    "message": "Zero-Length ClientID will force a raised CleanSession flag on connection.",
+    "author": "Francois Normandin",
+    "date": "2019-01-13T15:06:09-05:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "21ecfe2a09413a6a8b2ff21e60e8c31b99c3c5d4",
+    "short": "21ecfe2",
+    "message": "[MQTT-3.1.2-12] If the Will Flag is set to 0, a Will Message MUST NOT be published when this Network Connection ends.",
+    "author": "Francois Normandin",
+    "date": "2019-01-13T14:53:22-05:00",
+    "vi_count": 327
+  },
+  {
+    "sha": "af65b153a3d1badd464ae2e3d7c1717aac101602",
+    "short": "af65b15",
+    "message": "[MQTT-3.1.3-10] Will Topic must be UTF8 encoded",
+    "author": "Francois Normandin",
+    "date": "2019-01-13T12:09:55-05:00",
+    "vi_count": 326
+  },
+  {
+    "sha": "5eae31d6385d11d87eea788c16ce50f4d3f8b529",
+    "short": "5eae31d",
+    "message": "[MQTT-3.1.3-7] Client connection method will lift the CleanSession flag if a zero-length ClientID is supplied.",
+    "author": "Francois Normandin",
+    "date": "2019-01-13T11:59:44-05:00",
+    "vi_count": 325
+  },
+  {
+    "sha": "7c0fa26b7e9bbf17dd75bb342030f5d45a4f95d0",
+    "short": "7c0fa26",
+    "message": "[MQTT-3.1.3-7] If the Client supplies a zero-byte ClientId, the Client MUST also set CleanSession to 1.",
+    "author": "Francois Normandin",
+    "date": "2019-01-13T11:53:58-05:00",
+    "vi_count": 325
+  },
+  {
+    "sha": "cd17a997d23afca066c57e3ff491f25540c14729",
+    "short": "cd17a99",
+    "message": "[MQTT-3.1.3-6] Server allows a Client to supply a ClientId that has a length of zero bytes, if CleanSession flag is True",
+    "author": "Francois Normandin",
+    "date": "2019-01-13T11:52:15-05:00",
+    "vi_count": 324
+  },
+  {
+    "sha": "bd6e4f49a39b71dabb14bd7075bd73abacd7148d",
+    "short": "bd6e4f4",
+    "message": "[MQTT-3.1.3-8] Server rejects identifier if zero-length ClientID with CleanSession flag = 0.",
+    "author": "Francois Normandin",
+    "date": "2019-01-13T11:32:11-05:00",
+    "vi_count": 323
+  },
+  {
+    "sha": "fa6f4bd3eec768c6ba73d3905f76ad0c5395fdbf",
+    "short": "fa6f4bd",
+    "message": "[MQTT-3.1.3-5] The Server MAY allow ClientId’s that contain more than 23 encoded bytes. The Server MAY allow ClientId’s ",
+    "author": "Francois Normandin",
+    "date": "2019-01-13T10:24:24-05:00",
+    "vi_count": 322
+  },
+  {
+    "sha": "3760c9fdb1d67d8b8cbcdc46ef1ac076e10d918b",
+    "short": "3760c9f",
+    "message": "[MQTT-3.1.3-4] ClientID must be UTF8 encoded",
+    "author": "Francois Normandin",
+    "date": "2019-01-13T09:56:11-05:00",
+    "vi_count": 321
+  },
+  {
+    "sha": "5cf2867267666f9b282537bf1ba6fad8f6fc6702",
+    "short": "5cf2867",
+    "message": "[MQTT-3.1.3-3] The Client Identifier (ClientId) MUST be present and MUST be the first field in the CONNECT packet payloa",
+    "author": "Francois Normandin",
+    "date": "2019-01-13T09:47:09-05:00",
+    "vi_count": 320
+  },
+  {
+    "sha": "ded4713b49ecc473d71a88f9c0b0e40e96ae7fae",
+    "short": "ded4713",
+    "message": "[MQTT-3.1.3-1] Field ordering in CONNECT packet",
+    "author": "Francois Normandin",
+    "date": "2019-01-13T09:12:17-05:00",
+    "vi_count": 319
+  },
+  {
+    "sha": "446d5cb5fddd94ce0f1964c305ef48a13a75ac60",
+    "short": "446d5cb",
+    "message": "[MQTT-3.1.3-11] Username must be a UTF-8 encoded string",
+    "author": "Francois Normandin",
+    "date": "2019-01-12T17:04:24-05:00",
+    "vi_count": 318
+  },
+  {
+    "sha": "8bd9d702b4916e41cdfa40aef58f11ed629ea73b",
+    "short": "8bd9d70",
+    "message": "[MQTT-3.1.2-22] Password flag must be false if username flag is false.",
+    "author": "Francois Normandin",
+    "date": "2019-01-12T16:44:03-05:00",
+    "vi_count": 317
+  },
+  {
+    "sha": "a27bd1c94684b4f13740ff61b6d9a58549751bdd",
+    "short": "a27bd1c",
+    "message": "[MQTT-3.1.2-18] If the User Name Flag is set to 0, a user name MUST NOT be present in the payload. [MQTT-3.1.2-19] If th",
+    "author": "Francois Normandin",
+    "date": "2019-01-12T16:02:23-05:00",
+    "vi_count": 316
+  },
+  {
+    "sha": "1552222dfdc2974c725218fd5b4f9bba25fbfcdb",
+    "short": "1552222",
+    "message": "[MQTT-3.1.2-18] If the User Name Flag is set to 0, a user name MUST NOT be present in the payload.",
+    "author": "Francois Normandin",
+    "date": "2019-01-12T15:55:44-05:00",
+    "vi_count": 313
+  },
+  {
+    "sha": "806fb7cc9b4f0db8ec396ad710f1cf6e9363fc44",
+    "short": "806fb7c",
+    "message": "[MQTT-2.3.1-6] ACK, REL, REC must use same Packet Identifier as PUB",
+    "author": "Francois Normandin",
+    "date": "2019-01-12T13:32:46-05:00",
+    "vi_count": 311
+  },
+  {
+    "sha": "6003e3d9d36319b2f37bc164f57042215c942719",
+    "short": "6003e3d",
+    "message": "Added negative confirmation of packet",
+    "author": "Francois Normandin",
+    "date": "2019-01-06T12:16:37-05:00",
+    "vi_count": 309
+  },
+  {
+    "sha": "adaaebab3c220c82ecd593835816ead24233ee5b",
+    "short": "adaaeba",
+    "message": "[MQTT-2.3.1-7] Subcribe and unsubscribe acknowledgement packet ID match",
+    "author": "Francois Normandin",
+    "date": "2019-01-06T11:56:06-05:00",
+    "vi_count": 309
+  },
+  {
+    "sha": "40c7cf3b81b917621a44e1534a0917d13208d1f5",
+    "short": "40c7cf3",
+    "message": "[MQTT-2.3.1-5] Publish packets should not have a packet identifier if QoS = 0",
+    "author": "Francois Normandin",
+    "date": "2019-01-05T15:34:53-05:00",
+    "vi_count": 307
+  },
+  {
+    "sha": "80d7f76ba777e48ba86d53bdaf2bf3f5c146674a",
+    "short": "80d7f76",
+    "message": "[MQTT-2.2.2-1] Reserved bits in fixed headers",
+    "author": "Francois Normandin",
+    "date": "2019-01-05T15:25:42-05:00",
+    "vi_count": 306
+  },
+  {
+    "sha": "37474f9caf67db99d2642496f1d79f54b84a5284",
+    "short": "37474f9",
+    "message": "[MQTT-3.1.2-11] Will flag relation to Will topic and message",
+    "author": "Francois Normandin",
+    "date": "2018-12-02T20:31:11-05:00",
+    "vi_count": 304
+  },
+  {
+    "sha": "885241b989a1bdf3202f169ca8377bf7f994088e",
+    "short": "885241b",
+    "message": "[MQTT-2.2.2-2] [MQTT-3.3.2-3] [MQTT-3.2.2-4] [MQTT-3.6.1-1]",
+    "author": "Francois Normandin",
+    "date": "2018-12-02T16:10:46-05:00",
+    "vi_count": 300
+  },
+  {
+    "sha": "39e7bb1fb45a23381fb6d90a3834c3993e523784",
+    "short": "39e7bb1",
+    "message": "Modified the server connection to allow pointing to an external MQTT broker for tests. (mosquitto.org)",
+    "author": "Francois Normandin",
+    "date": "2018-12-02T12:05:54-05:00",
+    "vi_count": 296
+  },
+  {
+    "sha": "a4f5d4a3c3ece48d69945ee7668623eb55748e7b",
+    "short": "a4f5d4a",
+    "message": "[MQTT-2.3.1-2] Packet IDs created are not duplicated (within U16 precision)",
+    "author": "Francois Normandin",
+    "date": "2018-11-28T20:06:06-05:00",
+    "vi_count": 294
+  },
+  {
+    "sha": "26c1354fc9ed21e7e332df3b01003794a005b5c5",
+    "short": "26c1354",
+    "message": "[MQTT-2.3.1-1] SUBSCRIBE, UNSUBSCRIBE, and PUBLISH (in cases where QoS > 0) Control Packets MUST contain a non-zero 16-b",
+    "author": "Francois Normandin",
+    "date": "2018-11-28T08:15:47-05:00",
+    "vi_count": 293
+  },
+  {
+    "sha": "151e8fd34e24cce43a6ac9567b7e23b39b87ec48",
+    "short": "151e8fd",
+    "message": "[MQTT-4.7.1-3] Single-Level Character use in topic filter",
+    "author": "Francois Normandin",
+    "date": "2018-11-28T08:00:30-05:00",
+    "vi_count": 292
+  },
+  {
+    "sha": "669bb49454d227dc65ed56c721d7323d87ccb4db",
+    "short": "669bb49",
+    "message": "[MQTT-4.7.1-2] Multi-Level Character in topic filter.",
+    "author": "Francois Normandin",
+    "date": "2018-11-27T19:27:17-05:00",
+    "vi_count": 290
+  },
+  {
+    "sha": "335c97aab9eb28494db33f3ab5a0427fad827a55",
+    "short": "335c97a",
+    "message": "[MQTT-4.7.1-1]  No wildcards for topic names",
+    "author": "Francois Normandin",
+    "date": "2018-11-26T15:02:47-05:00",
+    "vi_count": 289
+  },
+  {
+    "sha": "b310dd2bd3df7489a01ff0300b657c651bf879c0",
+    "short": "b310dd2",
+    "message": "[MQTT-4.7.3-4] Subscription must not normalize topic filter",
+    "author": "Francois Normandin",
+    "date": "2018-11-26T14:19:20-05:00",
+    "vi_count": 287
+  },
+  {
+    "sha": "b5c7d8d18a4f49bd11b0f2a0236e2bedd401e9a6",
+    "short": "b5c7d8d",
+    "message": "[MQTT-4.7.2-1] Topic filter does not match wildcard with topics beginning with $ character.",
+    "author": "Francois Normandin",
+    "date": "2018-11-25T21:47:20-05:00",
+    "vi_count": 286
+  },
+  {
+    "sha": "d6526dbabc04ea8a4e42ad2163b5b3551ad7277a",
+    "short": "d6526db",
+    "message": "[MQTT-4.7.3-3] Topic Filter must not encode to more than 65535 bytes.",
+    "author": "Francois Normandin",
+    "date": "2018-11-25T16:58:58-05:00",
+    "vi_count": 285
+  },
+  {
+    "sha": "3186a0972a4b7dccd336d2f47d642982aa2f84a3",
+    "short": "3186a09",
+    "message": "[MQTT-4.7.3-1] Topic Filter must be at least one character long",
+    "author": "Francois Normandin",
+    "date": "2018-11-25T16:48:52-05:00",
+    "vi_count": 284
+  },
+  {
+    "sha": "9e6757a52ef2408510b05bb701951ac2e798a093",
+    "short": "9e6757a",
+    "message": "[MQTT-4.7.3-2] Topic Names and Topic Filters MUST NOT include the null character (Unicode U+0000)",
+    "author": "Francois Normandin",
+    "date": "2018-11-25T16:36:57-05:00",
+    "vi_count": 283
+  },
+  {
+    "sha": "eff15f1b02d2a31e9d476dbb2fa86ece2a04a07a",
+    "short": "eff15f1",
+    "message": "Fixed server disconnect on connection timeout Fixed server disconnect on invalid payload (empty subscription topic filte",
+    "author": "Francois Normandin",
+    "date": "2018-11-25T15:52:16-05:00",
+    "vi_count": 282
+  },
+  {
+    "sha": "5ac15fbaef0922c73e5a98f2f1557cb9180b9c43",
+    "short": "5ac15fb",
+    "message": "- Fixed test create/destroy server which could produce multiple servers because of input error on node. - Fixed a duplic",
+    "author": "Francois Normandin",
+    "date": "2018-11-25T10:04:55-05:00",
+    "vi_count": 280
+  },
+  {
+    "sha": "682b5fc3c85bfe835512adf742c6acdd9ce8e7f0",
+    "short": "682b5fc",
+    "message": "Added ping response time in ms to the Ping method",
+    "author": "Francois Normandin",
+    "date": "2018-11-25T09:14:40-05:00",
+    "vi_count": 278
+  },
+  {
+    "sha": "ddbd62151373dd5fda26d8e0f608811ec8d80b39",
+    "short": "ddbd621",
+    "message": "[MQTT-3.8.3-3] Subscribe packet minimum payload content",
+    "author": "Francois Normandin",
+    "date": "2018-11-23T08:03:41-05:00",
+    "vi_count": 278
+  },
+  {
+    "sha": "a20dd49c13625178ee2d7852f05e93fe7355a8e8",
+    "short": "a20dd49",
+    "message": "[MQTT-3.12.4-1] Ping with wait for response",
+    "author": "Francois Normandin",
+    "date": "2018-11-23T07:54:53-05:00",
+    "vi_count": 277
+  },
+  {
+    "sha": "47ab26b8d8c7ac9249fd1b97599e6222edf785db",
+    "short": "47ab26b",
+    "message": "- Ping response - Implementing the Publish notifications for QoS > 0",
+    "author": "Francois Normandin",
+    "date": "2018-11-21T20:54:13-05:00",
+    "vi_count": 277
+  },
+  {
+    "sha": "9e91df16183bdbdeb040e4f78983deb621f87a4b",
+    "short": "9e91df1",
+    "message": "[3.8.4-3] Duplicate topic filter replaces the previous subscription",
+    "author": "Francois Normandin",
+    "date": "2018-11-21T18:57:22-05:00",
+    "vi_count": 275
+  },
+  {
+    "sha": "a175306a2e7a40eda574bf22253106bc58e91c8a",
+    "short": "a175306",
+    "message": "[3.8.4-2] Suback packet id match with Subscribe packet id [3.8.4-5] Suback packet contains one return code per topic fil",
+    "author": "Francois Normandin",
+    "date": "2018-11-21T18:43:34-05:00",
+    "vi_count": 274
+  },
+  {
+    "sha": "5c4a8f59fe03ae9f4c34e5f0ec6826fd00a82714",
+    "short": "5c4a8f5",
+    "message": "Added a property to Server to allow specifying the max QoS accepted. By default, it accepts the highest QoS = 2 unless s",
+    "author": "Francois Normandin",
+    "date": "2018-11-18T12:34:36-05:00",
+    "vi_count": 268
+  },
+  {
+    "sha": "8d89193f58d63e845b023be7780e250c7d973c5e",
+    "short": "8d89193",
+    "message": "[MQTT-3.3.2-3] Publish message must match topic filter of subscription",
+    "author": "Francois Normandin",
+    "date": "2018-11-18T11:49:20-05:00",
+    "vi_count": 268
+  },
+  {
+    "sha": "63196c0faf168e0e1d4192aa92aad0d250dba514",
+    "short": "63196c0",
+    "message": "[MQTT-3.9.3-2] Suback reserved return codes",
+    "author": "Francois Normandin",
+    "date": "2018-11-18T10:57:53-05:00",
+    "vi_count": 265
+  },
+  {
+    "sha": "e85c21ddc73eed1cd29f97eb38bf5071b63b94b5",
+    "short": "e85c21d",
+    "message": "[MQTT-3.8.1-1] Server disconnects client if Subscribe packet reserved bits are invalid.",
+    "author": "Francois Normandin",
+    "date": "2018-11-18T09:59:23-05:00",
+    "vi_count": 264
+  },
+  {
+    "sha": "eb9c28de5f554d2dadcae6a2c915e0ca76006b24",
+    "short": "eb9c28d",
+    "message": "[MQTT-3.3.2-2] Publish Packet topic name must not contain wildcards - Modified error codes to match documentation starte",
+    "author": "Francois Normandin",
+    "date": "2018-11-18T08:41:59-05:00",
+    "vi_count": 260
+  },
+  {
+    "sha": "df8f2ba90e6fcf9dffe7a3545d1a85a02337b061",
+    "short": "df8f2ba",
+    "message": "Requirements Coverage now creates a single Server for multiple clients to test in parallel. Allows faster tests and with",
+    "author": "Francois Normandin",
+    "date": "2018-11-18T08:21:20-05:00",
+    "vi_count": 259
+  },
+  {
+    "sha": "0d22a48c1c1670b1daf56fe00692afd12d6a0022",
+    "short": "0d22a48",
+    "message": "[MQTT-1.5.3-2] Null character in UTF8 string detected as an invalid input",
+    "author": "Francois Normandin",
+    "date": "2018-11-17T15:57:11-05:00",
+    "vi_count": 256
+  },
+  {
+    "sha": "e54778bb0757e7a400695ce1e4f4054cd29c714a",
+    "short": "e54778b",
+    "message": "UTF inval;id characters to disconnect session.",
+    "author": "Francois Normandin",
+    "date": "2018-11-17T15:53:06-05:00",
+    "vi_count": 255
+  },
+  {
+    "sha": "058daca60c410c1a6e7b4ad294e8cb9d0e593350",
+    "short": "058daca",
+    "message": "[MQTT-1.5.3-1] Detects UTF-8 restricted coding",
+    "author": "Francois Normandin",
+    "date": "2018-11-17T15:42:39-05:00",
+    "vi_count": 255
+  },
+  {
+    "sha": "c28a57bacb43565fac87349ad3258145704d035d",
+    "short": "c28a57b",
+    "message": "[Fix: 144] Unsubscribe packet now generates a packet ID if none provided on Constructror node. This fixes the Unsubscrib",
+    "author": "Francois Normandin",
+    "date": "2018-11-17T14:18:08-05:00",
+    "vi_count": 254
+  },
+  {
+    "sha": "72202cefc59e9bb3fe4366dc1ea8999090c7ba6d",
+    "short": "72202ce",
+    "message": "fixed a time lag on disconnection when client could wait on an already stopped server.",
+    "author": "Francois Normandin",
+    "date": "2018-11-12T16:49:25-05:00",
+    "vi_count": 238
+  },
+  {
+    "sha": "f030d9e23ff518e6a0193e1ee6edd0299cc04119",
+    "short": "f030d9e",
+    "message": "Now uses Serializer from package",
+    "author": "Francois Normandin",
+    "date": "2018-11-12T15:01:23-05:00",
+    "vi_count": 237
+  },
+  {
+    "sha": "2acea7a48e88ad1b7c80e73d6de29fcc2c935033",
+    "short": "2acea7a",
+    "message": "- cleaned up MQTT process - updated icons",
+    "author": "Francois Normandin",
+    "date": "2018-11-12T10:37:08-05:00",
+    "vi_count": 237
+  },
+  {
+    "sha": "6accd5d5fac163b6f00f4dd46af7af759e84a7eb",
+    "short": "6accd5d",
+    "message": "Added a Send-Receive buffer to the sessions to relieve limited-size TCP buffer.",
+    "author": "Francois Normandin",
+    "date": "2018-11-12T09:20:49-05:00",
+    "vi_count": 237
+  },
+  {
+    "sha": "e2f15187019f7b238b70e6f400d905d773fb4c93",
+    "short": "e2f1518",
+    "message": "Fixed an issue with parsing incoming bytes where more bytes than the package length would cause a hang up",
+    "author": "Francois Normandin",
+    "date": "2018-11-11T22:18:01-05:00",
+    "vi_count": 237
+  },
+  {
+    "sha": "0e86a0a5e8fb2dce18ce0c9f2d3a6f0d1b782b20",
+    "short": "0e86a0a",
+    "message": "testing latency of pub-sub toCheck: issue with disconnection of one subscriber when less than 1ms publishing rate",
+    "author": "Francois Normandin",
+    "date": "2018-11-10T18:34:53-05:00",
+    "vi_count": 237
+  },
+  {
+    "sha": "539d9a8b805e6fbf263aa29f22a775eacb9e21c3",
+    "short": "539d9a8",
+    "message": "some tests",
+    "author": "Francois Normandin",
+    "date": "2018-11-09T18:49:18-05:00",
+    "vi_count": 236
+  },
+  {
+    "sha": "8c337342ba093689f86bb22d0f50ec25a398bb0f",
+    "short": "8c33734",
+    "message": "Publish-Subscribe in QoS = 0, proof of concept. Next steps: - asynchronous subscription process - QoS > 0",
+    "author": "Francois Normandin",
+    "date": "2018-11-09T18:40:29-05:00",
+    "vi_count": 236
+  },
+  {
+    "sha": "d9c72f38545bcfb0bcc41be9708c73abd2a3a34e",
+    "short": "d9c72f3",
+    "message": "Basic Publish and Subscribe messages with default reply. No subscription process yet, no publish from subscription.",
+    "author": "Francois Normandin",
+    "date": "2018-11-09T16:08:33-05:00",
+    "vi_count": 224
+  },
+  {
+    "sha": "f4e6e8c1ddf4442f971b4afd7daddc09e0af4a49",
+    "short": "f4e6e8c",
+    "message": "refactored the client and server to inherit from common base. messaging for publication in Client in done. need to verif",
+    "author": "Francois Normandin",
+    "date": "2018-11-09T08:18:09-05:00",
+    "vi_count": 218
+  },
+  {
+    "sha": "1ea711b88d20ba4620f4b8fef706db7d9c4fc8e5",
+    "short": "1ea711b",
+    "message": "Created a base class for commonality between MQTT Server and MQTT Client classes.",
+    "author": "Francois Normandin",
+    "date": "2018-10-31T20:03:44-04:00",
+    "vi_count": 199
+  },
+  {
+    "sha": "f97079070ad95a9b2b8f6a07e0fe6fb1c3264e97",
+    "short": "f970790",
+    "message": "Creating a client to wrap the commands. This will be easier for testing some of the requirements.",
+    "author": "Francois Normandin",
+    "date": "2018-10-31T19:11:22-04:00",
+    "vi_count": 191
+  },
+  {
+    "sha": "8bb44169562cc5d2c2e7b664e1beb8c5234fd98d",
+    "short": "8bb4416",
+    "message": "[MQTT-2.3.1-5] Added reference to requirement in the Publish packet creation method",
+    "author": "Francois Normandin",
+    "date": "2018-10-30T08:14:46-04:00",
+    "vi_count": 185
+  },
+  {
+    "sha": "b8d0806406e4ae2d82d7d2b9d0c06a685c49e82c",
+    "short": "b8d0806",
+    "message": "Server can send a message indicating that session should terminate. Rewrote the session message handling to forward last",
+    "author": "Francois Normandin",
+    "date": "2018-10-30T08:09:37-04:00",
+    "vi_count": 185
+  },
+  {
+    "sha": "a062060cbeba10fa40d0558b47ad8d9fe03efb24",
+    "short": "a062060",
+    "message": "Session Restore backbone implemented.",
+    "author": "Francois Normandin",
+    "date": "2018-10-29T20:00:35-04:00",
+    "vi_count": 184
+  },
+  {
+    "sha": "58b01d19aa0d7d69b98eae09bbc9195ee20d9fc1",
+    "short": "58b01d1",
+    "message": "Adding Stored Sessions capabilities to Server",
+    "author": "Francois Normandin",
+    "date": "2018-10-28T16:15:45-04:00",
+    "vi_count": 181
+  },
+  {
+    "sha": "1e23d77456665cc521998fde7ffd6f09f0ce7538",
+    "short": "1e23d77",
+    "message": "Implementing the CleanSession requirement to store and retrieve a Session state from ClientID duplication.",
+    "author": "Francois Normandin",
+    "date": "2018-10-27T19:32:58-04:00",
+    "vi_count": 174
+  },
+  {
+    "sha": "e987091700caeee74101a9487721a3b965210f92",
+    "short": "e987091",
+    "message": "[MQTT-3.1.0-1] After a Network Connection is established by a Client to a Server, the first Packet sent from the Client ",
+    "author": "Francois Normandin",
+    "date": "2018-10-27T18:12:29-04:00",
+    "vi_count": 169
+  },
+  {
+    "sha": "f7b8ce8acc038f7f07ba63a225cacd94cb48e6b6",
+    "short": "f7b8ce8",
+    "message": "[3.2.0-1] Unit test Fixed ClientID validation which excluded uncapitalized alphabetical characters",
+    "author": "Francois Normandin",
+    "date": "2018-10-27T17:40:32-04:00",
+    "vi_count": 167
+  },
+  {
+    "sha": "9fda15de3f5a0cf885b5f878c3eea98e7bc5e799",
+    "short": "9fda15d",
+    "message": "[3.1.2-1] Disconnection on incorrect Protocol Name",
+    "author": "Francois Normandin",
+    "date": "2018-10-27T17:27:21-04:00",
+    "vi_count": 166
+  },
+  {
+    "sha": "f21befc3592fc71e0f05abcdd8722a74540c9513",
+    "short": "f21befc",
+    "message": "- Server and Connection Handler process sync [MQTT-3.1.2-2] Unacceptable Protocol Version [MQTT-3.1.2-3] Invalid use of ",
+    "author": "Francois Normandin",
+    "date": "2018-10-27T15:10:15-04:00",
+    "vi_count": 163
+  },
+  {
+    "sha": "cf29b2099fb81f60d59859a1271920f1a006ccf3",
+    "short": "cf29b20",
+    "message": "implementing more tests and started work on the disconnection commands originating from protocol violations",
+    "author": "Francois Normandin",
+    "date": "2018-10-21T19:09:57-04:00",
+    "vi_count": 163
+  },
+  {
+    "sha": "a1d981e333f3aed6bd911c84f6aca12c6b32eaea",
+    "short": "a1d981e",
+    "message": "[MQTT-3.1.3-9]  Identifier Rejection Unit Test",
+    "author": "Francois Normandin",
+    "date": "2018-10-12T19:28:10-04:00",
+    "vi_count": 156
+  },
+  {
+    "sha": "b4fc4664739cd889b1c0308f9783f5c8d2aabe40",
+    "short": "b4fc466",
+    "message": "[MQTT-3.1.2-2] Server replies with Connack packet - Unacceptable Protocol Version",
+    "author": "Francois Normandin",
+    "date": "2018-10-12T18:41:48-04:00",
+    "vi_count": 152
+  },
+  {
+    "sha": "659232675e6ae60470d47f2ce56b38bce4909c01",
+    "short": "6592326",
+    "message": "Initial MQTT Server, Connection Handler and Session. Round-trip for handling requests on server and responding to sessio",
+    "author": "Francois Normandin",
+    "date": "2018-10-10T19:15:38-04:00",
+    "vi_count": 146
+  },
+  {
+    "sha": "d3cf4b86811d32884770ae199df202d9439d8a6e",
+    "short": "d3cf4b8",
+    "message": "Created a separate project to decouple Unit testing from development project Added Caraya as dependency for test",
+    "author": "Francois Normandin",
+    "date": "2018-10-10T11:41:34-04:00",
+    "vi_count": 121
+  },
+  {
+    "sha": "816717bc9db79c91933dba2c6ab6d419f5ea2710",
+    "short": "816717b",
+    "message": "moved unit tests outside of source folder to decouple the project file from unit testing.",
+    "author": "Francois Normandin",
+    "date": "2018-10-10T11:24:06-04:00",
+    "vi_count": 121
+  },
+  {
+    "sha": "5031834a372834cb4608c9efe2df2acf328f0ea8",
+    "short": "5031834",
+    "message": "- Completed the basic tests for each packet type - Fixed Connect password that should not be UTF-8 encoded. - Added read",
+    "author": "Francois Normandin",
+    "date": "2018-10-09T20:57:07-04:00",
+    "vi_count": 124
+  },
+  {
+    "sha": "b2bc408933afd6ac0534005d558b7c71eb929ddb",
+    "short": "b2bc408",
+    "message": "Test Create Subscribe packet and incoming bytes",
+    "author": "Francois Normandin",
+    "date": "2018-10-08T17:59:26-04:00",
+    "vi_count": 112
+  },
+  {
+    "sha": "5ecb79189ed720e68efb38dc327c0304aae91b77",
+    "short": "5ecb791",
+    "message": "More test creators for Puback, PubRel, PubRec and PubComp",
+    "author": "Francois Normandin",
+    "date": "2018-10-08T17:40:23-04:00",
+    "vi_count": 110
+  },
+  {
+    "sha": "0160ea20ab122eab27f4169db9e584ca47a3466a",
+    "short": "0160ea2",
+    "message": "Test method for Publish packet creation and parsing",
+    "author": "Francois Normandin",
+    "date": "2018-10-08T17:20:20-04:00",
+    "vi_count": 106
+  },
+  {
+    "sha": "d2b1a7b59696b643419ac2cf773271a7002e7f67",
+    "short": "d2b1a7b",
+    "message": "Completed the initial creation of each creation method for all control packets. Building individual tests for creation a",
+    "author": "Francois Normandin",
+    "date": "2018-10-08T13:46:54-04:00",
+    "vi_count": 105
+  },
+  {
+    "sha": "71b46dc87d08a0ca2e3d638988f2f5daa616b7cc",
+    "short": "71b46dc",
+    "message": "Creating Publish Packet",
+    "author": "Francois Normandin",
+    "date": "2018-10-08T09:09:21-04:00",
+    "vi_count": 86
+  },
+  {
+    "sha": "84d3c6d8751356f950142c0b63962ded8ff46376",
+    "short": "84d3c6d",
+    "message": "CONNACK Packet creation with conncet return code Banner rework",
+    "author": "Francois Normandin",
+    "date": "2018-10-07T11:57:32-04:00",
+    "vi_count": 85
+  },
+  {
+    "sha": "3cccb30989ae35313ff286df62999c6b5e0ccf10",
+    "short": "3cccb30",
+    "message": "completed Create CONNECT method with unit test for parsing incomiong CONNECT packet bytes.",
+    "author": "Francois Normandin",
+    "date": "2018-10-07T11:07:28-04:00",
+    "vi_count": 82
+  },
+  {
+    "sha": "813a1f219757234b5f50c7703b787c8ba07a5d2f",
+    "short": "813a1f2",
+    "message": "refactored the factory and incoming byte parsing",
+    "author": "Francois Normandin",
+    "date": "2018-10-06T09:24:36-04:00",
+    "vi_count": 69
+  },
+  {
+    "sha": "c5c492c016a83305b974c41f9bc35e087274f786",
+    "short": "c5c492c",
+    "message": "created all Control Packet classes. Working on reception of bytes: variable headers done. Next: payload handling",
+    "author": "Francois Normandin",
+    "date": "2018-10-05T19:13:50-04:00",
+    "vi_count": 63
+  },
+  {
+    "sha": "ebaddbe21fa569e80944afcd48d92de24530f7b1",
+    "short": "ebaddbe",
+    "message": "Factory with processing engine for new bytes.",
+    "author": "Francois Normandin",
+    "date": "2018-10-01T23:23:22-04:00",
+    "vi_count": 28
+  },
+  {
+    "sha": "2efd7702fe81fb6acc911dbb560fdfd6a753cb10",
+    "short": "2efd770",
+    "message": "control packet manipulation methods",
+    "author": "Francois Normandin",
+    "date": "2018-09-30T16:00:51-04:00",
+    "vi_count": 10
+  }
+]
