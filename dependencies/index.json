@@ -1,0 +1,1219 @@
+{
+  "schema": 1,
+  "repo": "elijah286/LV-MQTT-Broker",
+  "sha": "f470c6739c8f7da6e45442361d766363772eaa07",
+  "revisions": [
+    {
+      "sha": "f470c6739c8f7da6e45442361d766363772eaa07",
+      "short": "f470c67",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Elijah Kerry",
+      "date": "2026-09-30T15:23:43Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "01aa7848b707cb5ac609e8d27fc6ae94b51d65d0",
+      "short": "01aa784",
+      "message": "Merge branch 'release/4.0.4'",
+      "author": "Francois Normandin",
+      "date": "2024-01-14T20:40:19Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "33ba897abb2da21e0b192d9ae50b8b05a01ab3ce",
+      "short": "33ba897",
+      "message": "Release 4.0.4",
+      "author": "Francois Normandin",
+      "date": "2024-01-14T20:39:44Z",
+      "project": true,
+      "dep_only": true
+    },
+    {
+      "sha": "e66a48d68237a782f57536633f2ca8769b0c4db7",
+      "short": "e66a48d",
+      "message": "Merge branch 'master' into develop",
+      "author": "Francois Normandin",
+      "date": "2024-01-14T20:30:44Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "a2dbfb757c1b613e53add785ceac8152184a910e",
+      "short": "a2dbfb7",
+      "message": "Update to MQTT Connection 4.1.2 (fixes bugs with PINGREQ-PINGRESP) + Adds support for injecting a DebugTerminal class into the connection.",
+      "author": "Francois Normandin",
+      "date": "2024-01-14T20:30:36Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "e74c5dad3e71449d8d5ae4682d52116647ba2c4d",
+      "short": "e74c5da",
+      "message": "[Fix: 178] Invalid packet could be published if error in the core build packet methods.",
+      "author": "Francois Normandin",
+      "date": "2024-01-01T16:23:58Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "4b3a420a753bac0b1e0ee37a200a767e3725c0d7",
+      "short": "4b3a420",
+      "message": "Update README.md",
+      "author": "Francois Normandin",
+      "date": "2023-03-28T05:35:29Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "d8e8ddcf92b67746ae8e17f0f454c3723aef9de0",
+      "short": "d8e8ddc",
+      "message": "Merge tag '4.0.2' into develop",
+      "author": "Francois Normandin",
+      "date": "2022-08-16T14:54:26Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "d557a081234d6c06fe008315359e063cafd3974b",
+      "short": "d557a08",
+      "message": "Merge branch 'release/4.0.2'",
+      "author": "Francois Normandin",
+      "date": "2022-08-16T14:54:26Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "bf89d250a88d22dac14fc553c7e6c7fffd132cc7",
+      "short": "bf89d25",
+      "message": "built 4.0.2",
+      "author": "Francois Normandin",
+      "date": "2022-08-16T14:53:52Z",
+      "project": true,
+      "dep_only": true
+    },
+    {
+      "sha": "018a3f92b5fd4880d07357f3617176e03fc2fe2f",
+      "short": "018a3f9",
+      "message": "- Updated the MQTT Control Packet dependency to fix issue with decoding passwords from Connect packets",
+      "author": "Francois Normandin",
+      "date": "2022-08-16T14:48:20Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "c2c51c0144bb2af0f65b7205a355ab3e09a8989c",
+      "short": "c2c51c0",
+      "message": "Merge tag '4.0.1' into develop",
+      "author": "Francois Normandin",
+      "date": "2022-08-15T03:33:38Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "4506194ecb2aeeb1d411737eff446a8e01b0062e",
+      "short": "4506194",
+      "message": "Merge branch 'release/4.0.1'",
+      "author": "Francois Normandin",
+      "date": "2022-08-15T03:33:37Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "1888120d10fe0ed04a30f35db2e62723062a666d",
+      "short": "1888120",
+      "message": "built 4.0.1",
+      "author": "Francois Normandin",
+      "date": "2022-08-15T03:33:01Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "2ca541687f1118ead03193d261a7af778480e809",
+      "short": "2ca5416",
+      "message": "[Feature: 173] Addition of Get Nb Connections accessor",
+      "author": "Francois Normandin",
+      "date": "2022-08-15T03:24:33Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "1ba8a87516f64d9d7a7197596ac17ed06e79a87d",
+      "short": "1ba8a87",
+      "message": "[Fix: 176] unsubscribe from topic when session has more than one topic now searches and removes correctly the sessions in any order called.",
+      "author": "Francois Normandin",
+      "date": "2022-08-15T02:53:26Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "021a9191c1d93f10ecd6107e0037b3842f391972",
+      "short": "021a919",
+      "message": "Merge tag '4.0.0' into develop",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T18:26:57Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "782e723bd69d0b9bb5d819230a9f2feb3e4d7889",
+      "short": "782e723",
+      "message": "Merge branch 'release/4.0.0'",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T18:26:56Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "1aa5c3538cbf00ea6f6996f4141023a5b01b3c36",
+      "short": "1aa5c35",
+      "message": "built",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T18:26:40Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "f02ca07667210a15ba0eca6145110d4e888f976b",
+      "short": "f02ca07",
+      "message": "[Feature: 173] Addition of Get NbConnections accessor method",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T18:23:14Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "f0504f78a8783ee726e8c113e7f20bfd8d1318f1",
+      "short": "f0504f7",
+      "message": "Merge tag '4.0.0' into develop",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T18:02:07Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "dd3aee265bd6bb15b94e9fd00dfd384e442ff27f",
+      "short": "dd3aee2",
+      "message": "Merge branch 'release/4.0.0'",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T18:02:06Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "457da88c5954384c64f10436853997eb8ce60324",
+      "short": "457da88",
+      "message": "built 4.0.0",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T17:51:08Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "be448390051be4d00a2aaebcbfc4309c0aea963f",
+      "short": "be44839",
+      "message": "saved class with unit test coverage validated",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T16:27:00Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "c8ac613fd44f43a41ab5032f9c308b396a792872",
+      "short": "c8ac613",
+      "message": "Exposed a protected method for inspection of Subscriptions and Sessions",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T16:25:17Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "03d013fbc41164ccd14848fb39dc54056647ff1b",
+      "short": "03d013f",
+      "message": "Constructor exposes option to support session storage (defaults to True)",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T16:09:49Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "7fc1c30c3c6739e01e041475ac52b70a449c7bdb",
+      "short": "7fc1c30",
+      "message": "[Feature] Session Storage can be turned off with an accessor, prior to launching running the server.",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T16:07:12Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "40bfa85a051e922b4c8fb350d5b895e795c7773a",
+      "short": "40bfa85",
+      "message": "updated vipc and palette to include Config Connection",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T15:07:00Z",
+      "project": true,
+      "dep_only": true
+    },
+    {
+      "sha": "c5e781c44d02629a23a6514c81528549d3617800",
+      "short": "c5e781c",
+      "message": "-Updated the code base to common Connection base class",
+      "author": "Francois Normandin",
+      "date": "2022-05-08T15:03:57Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "04ec6cb44b0a74c4dd89d2bcade4884b29c3e54f",
+      "short": "04ec6cb",
+      "message": "Merge branch 'release/3.2.0'",
+      "author": "Francois Normandin",
+      "date": "2021-05-24T11:56:55Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "2a2b47b6fbc4d068903a60911d3741218ac6921e",
+      "short": "2a2b47b",
+      "message": "Merge tag '3.2.0' into develop",
+      "author": "Francois Normandin",
+      "date": "2021-05-24T11:56:55Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "77819b33ba2cdfbc51e6664104aacc6f66ae2175",
+      "short": "77819b3",
+      "message": "built 3.2.0",
+      "author": "Francois Normandin",
+      "date": "2021-05-24T11:56:28Z",
+      "project": true,
+      "dep_only": true
+    },
+    {
+      "sha": "a4308e64189de07026e749dc8499a3c0cc5d1e8e",
+      "short": "a4308e6",
+      "message": "Adjusted DropVI icons",
+      "author": "Francois Normandin",
+      "date": "2021-05-24T11:55:49Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "3d4de27e545ea975085881ec87805df8ff6e99d3",
+      "short": "3d4de27",
+      "message": "- Addition of a PacketTracer virtual class for extension (notification on each Incoming and Outgoing packets.",
+      "author": "Francois Normandin",
+      "date": "2021-05-23T14:50:57Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "0582aacc902724a12531c1344621fd147cd6c6b5",
+      "short": "0582aac",
+      "message": "Generates a MQTT Base public event on incoming Publish packets received from any source.",
+      "author": "Francois Normandin",
+      "date": "2021-05-23T13:57:24Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "c717acaff6eb487a50600e7681fac899d8883311",
+      "short": "c717aca",
+      "message": "Server process now monitors a single Stop event instead of registering to all events and ignoring them.",
+      "author": "Francois Normandin",
+      "date": "2021-05-23T13:48:19Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "d01a96b21ef3173db6df06cf1f860988f605cf48",
+      "short": "d01a96b",
+      "message": "Merge tag '3.1.4' into develop",
+      "author": "Francois Normandin",
+      "date": "2021-01-01T18:27:51Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "045cd24f1ce300eb805157a3eaadb58947c28631",
+      "short": "045cd24",
+      "message": "Merge branch 'release/3.1.4'",
+      "author": "Francois Normandin",
+      "date": "2021-01-01T18:27:49Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "51b295cd11eb741c4f7a34b2d64a5061dbcaecf3",
+      "short": "51b295c",
+      "message": "built 3.1.5",
+      "author": "Francois Normandin",
+      "date": "2021-01-01T18:26:40Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "5eb0872963682a8cbd8254583d36ff397987e010",
+      "short": "5eb0872",
+      "message": "[Fix: 162] Disabled the DUP packet resend feature until it is implemented and demonstrated to work with unit testing",
+      "author": "Francois Normandin",
+      "date": "2021-01-01T17:33:54Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "31a241127fb4f90bedd37ca72862d9e2e0892271",
+      "short": "31a2411",
+      "message": "Merge branch 'release/3.1.3'",
+      "author": "Francois Normandin",
+      "date": "2020-12-13T00:16:31Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "fcaea31a97493162815a2138c7b26c9f1c236a74",
+      "short": "fcaea31",
+      "message": "Merge tag '3.1.3' into develop",
+      "author": "Francois Normandin",
+      "date": "2020-12-13T00:16:31Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "ac5ad1f0295ecacaeb90ca6e8a18f5be3430e196",
+      "short": "ac5ad1f",
+      "message": "built 3.1.3",
+      "author": "Francois Normandin",
+      "date": "2020-12-13T00:15:59Z",
+      "project": true,
+      "dep_only": true
+    },
+    {
+      "sha": "36799aa9cabdbd678c207f33c022da2da891487c",
+      "short": "36799aa",
+      "message": "Updated the password test after the fix for length-prefixed password in Connect packet",
+      "author": "Francois Normandin",
+      "date": "2020-12-12T23:56:58Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "baeace469c48c39d7f775b2a41d67a3892f7ef0a",
+      "short": "baeace4",
+      "message": "[Fix: 161] Added a Unit Test (manual) to validate if client correctly acknowledges the packets in QoS > 0",
+      "author": "Francois Normandin",
+      "date": "2020-12-12T21:44:48Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "dc368de838073b9bf39f142249ea99e9ef433e77",
+      "short": "dc368de",
+      "message": "Merge branch 'master' into develop",
+      "author": "Francois Normandin",
+      "date": "2020-11-15T13:24:52Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "e78815649aebc9c7ed098bcf9cb7262306670453",
+      "short": "e788156",
+      "message": "Update README.md",
+      "author": "Francois Normandin",
+      "date": "2020-11-07T16:21:55Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "8ab3a59c3b1db1da978ec172787fee32b008036b",
+      "short": "8ab3a59",
+      "message": "Updated the unit tests to support new error schemes intrioduced in Client 3.1.4 where sessions are in DVR and API calls are mutexed",
+      "author": "Francois Normandin",
+      "date": "2020-11-03T19:55:58Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "4c5855657034f7348224f462e895ef6b2b42b83a",
+      "short": "4c58556",
+      "message": "Merge branch 'release/3.1.2'",
+      "author": "Francois Normandin",
+      "date": "2020-11-01T15:34:09Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "024d8be884858739c44fb270f8d8f4e3f12773f0",
+      "short": "024d8be",
+      "message": "Merge tag '3.1.2' into develop",
+      "author": "Francois Normandin",
+      "date": "2020-11-01T15:34:09Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "7dd3889009b6d1303d24100fd571a051ff3adf4b",
+      "short": "7dd3889",
+      "message": "ignoring a package configuration file which includes a copy of all dependencies for installations without access to VIPM Community repo.",
+      "author": "Francois Normandin",
+      "date": "2020-11-01T15:33:44Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "a6a01d5d0a17cf13de7e9a98e0a24ba3e8e83003",
+      "short": "a6a01d5",
+      "message": "updated the dependencies configuration to install all Unit Testing dependencies, including all three connection classes and MQTT client.",
+      "author": "Francois Normandin",
+      "date": "2020-11-01T15:31:13Z",
+      "project": true,
+      "dep_only": true
+    },
+    {
+      "sha": "1adea8a0365f1d6877c8cba9e9c970d17ae7c091",
+      "short": "1adea8a",
+      "message": "- Fixed a last minute QoS = 0 bug after implementing QoS 1 and 2.",
+      "author": "Francois Normandin",
+      "date": "2020-11-01T15:29:44Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "e2e322daf8bb38930ef59847eecc57c4b8073b1c",
+      "short": "e2e322d",
+      "message": "Fixed an issue with Flattening Packets which should not add reserved packet to the collection",
+      "author": "Francois Normandin",
+      "date": "2020-11-01T12:18:18Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "f38df6f3d700b934799f6032a16913ea1109b455",
+      "short": "f38df6f",
+      "message": "rearranged tests",
+      "author": "Francois Normandin",
+      "date": "2020-10-31T22:36:52Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "84b1970f23b1d81b452841311ff51c0223dcdaff",
+      "short": "84b1970",
+      "message": "- Migrated responsibility for stored sessions from Session core to the server, which has more timely access to both subscriptions and acknowledgement packets.",
+      "author": "Francois Normandin",
+      "date": "2020-10-31T22:22:45Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "f6dc1db75b3e9abe6e4d3fabb0153cd77097d7b8",
+      "short": "f6dc1db",
+      "message": "started to address session present workflow for storing sessions during disconnection",
+      "author": "Francois Normandin",
+      "date": "2020-10-31T13:55:07Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "86c0ecb0bb392d2b970aabccd0ff447d3da20356",
+      "short": "86c0ecb",
+      "message": "put tests in the correct virtual folder",
+      "author": "Francois Normandin",
+      "date": "2020-10-31T13:12:29Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "15a6d27ac5318ff20a34b42d2399ea5fdfc50084",
+      "short": "15a6d27",
+      "message": "Added unit tests for 4.3.2-1 and 4.3.3-1",
+      "author": "Francois Normandin",
+      "date": "2020-10-31T13:10:08Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "45de7e0b294cbdb21697e3c48a41591157c3a2c7",
+      "short": "45de7e0",
+      "message": "- Fixed issue with private events not being created in Server's onCreate (for subscription relayed messages)",
+      "author": "Francois Normandin",
+      "date": "2020-10-31T12:22:25Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "94a7b3eeb0f27869c50efb2acb1c5d7c8a583282",
+      "short": "94a7b3e",
+      "message": "Merge QoS (Application Message within Subscription)",
+      "author": "Francois Normandin",
+      "date": "2020-10-30T23:42:08Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "ba12323c69bdd3a4c3bbd6b9f0e3e4061c6c2226",
+      "short": "ba12323",
+      "message": "Subscription and Topic Filter moved from Base to Server, since the Client never bothers with those concepts. (A client subscribes, but does not maintain state of subscription, it only acknowledges packets received from the server)",
+      "author": "Francois Normandin",
+      "date": "2020-10-30T22:50:30Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "45691903b72f127673290abccfe84a7c20931d77",
+      "short": "4569190",
+      "message": "[MQTT-4.8.0-1] Protocol Violation causes a disconnection of the endpoint",
+      "author": "Francois Normandin",
+      "date": "2020-10-28T17:16:39Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "94633406d9c2a21b4e056e0d4fe1a830020f72a8",
+      "short": "9463340",
+      "message": "updated the package configurations with or without unit testing",
+      "author": "Francois Normandin",
+      "date": "2020-10-28T16:37:09Z",
+      "project": true,
+      "dep_only": true
+    },
+    {
+      "sha": "b6e90f8b604cb2c952a302fc7576d3716479a5c9",
+      "short": "b6e90f8",
+      "message": "[MQTT-6.0.0-2] MQTT Engine does not assume that control packets are aligned with websocket frame boundaries",
+      "author": "Francois Normandin",
+      "date": "2020-10-28T11:52:33Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "3737cc71e08446e8742b4ce36ca6eaf0d4e20017",
+      "short": "3737cc7",
+      "message": "[MQTT-6.0.0-3] Client send mqtt as subprotocol",
+      "author": "Francois Normandin",
+      "date": "2020-10-26T00:38:55Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "ebe0d95000062261f3528c73666c2834e9478745",
+      "short": "ebe0d95",
+      "message": "[MQTT-6.0.0-1] Sending a Text Frame causes an immediate disconnection",
+      "author": "Francois Normandin",
+      "date": "2020-10-25T23:29:59Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "1dd9fdd319a96787da053b6b310e2c4ffd241fc1",
+      "short": "1dd9fdd",
+      "message": "Refactored the tests to ue a single server and run all tests sequentially",
+      "author": "Francois Normandin",
+      "date": "2020-10-25T22:39:50Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "5211c801407d506819925dcaee464e3580affdcc",
+      "short": "5211c80",
+      "message": "Merge tag '3.1.1' into develop",
+      "author": "Francois Normandin",
+      "date": "2020-10-22T11:47:49Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "219ee6bbaec3f7ea2c73e3a86f5b438cd39050ed",
+      "short": "219ee6b",
+      "message": "Merge branch 'release/3.1.1'",
+      "author": "Francois Normandin",
+      "date": "2020-10-22T11:47:47Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "ec0087398e5e9732000125d8e257995a9c24a061",
+      "short": "ec00873",
+      "message": "- Migration of project to use the MQTT Packages published (removed all non-server code from repo)",
+      "author": "Francois Normandin",
+      "date": "2020-10-22T11:45:48Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "5ddf2ee6d116d87c7f4d93e5aa2e453b6c0beb4e",
+      "short": "5ddf2ee",
+      "message": "Merge remote-tracking branch 'origin/master' into develop",
+      "author": "Francois Normandin",
+      "date": "2020-10-20T19:13:07Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "fcb4a0bb6e4420da052ffa7cdd7ef32ef8df38fd",
+      "short": "fcb4a0b",
+      "message": "- Unit Tests changes to follow new abstraction layer for Connection",
+      "author": "Francois Normandin",
+      "date": "2020-10-20T19:12:46Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "e7e6508ea0866394e4f423af061832fa1e523d67",
+      "short": "e7e6508",
+      "message": "- Moved Control Packets, Client, Session, Base and Connection out of project",
+      "author": "Francois Normandin",
+      "date": "2020-10-19T22:24:56Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "b4ab2b5320f528b21ee65bac2244807c5f5caf05",
+      "short": "b4ab2b5",
+      "message": "Update README.md",
+      "author": "Francois Normandin",
+      "date": "2020-10-19T16:53:55Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "bb3077a87e82c0e6817c83e6c944378151b2bf87",
+      "short": "bb3077a",
+      "message": "moved test file out of library folder",
+      "author": "Francois Normandin",
+      "date": "2020-10-18T23:23:07Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "58c62708a1049d0c577ed0e27c7fd76e85ade7e1",
+      "short": "58c6270",
+      "message": "deleted obsolete files",
+      "author": "Francois Normandin",
+      "date": "2020-10-18T23:21:41Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "e2f6c7bb31270ab9a6c8fe95459ee9553ce10764",
+      "short": "e2f6c7b",
+      "message": "Merge branch 'feature/dependencies' into develop",
+      "author": "Francois Normandin",
+      "date": "2020-10-18T23:17:09Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "cddfb7b8f394fa3f86183fc871ce231117ede30f",
+      "short": "cddfb7b",
+      "message": "Increase speed of test for random number generation so that QoS effect is visible",
+      "author": "Francois Normandin",
+      "date": "2020-10-18T23:16:14Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "07337fd7b965e222e88ffb20a0a1a0660352178b",
+      "short": "07337fd",
+      "message": "- Addition of MQTT Websockets (server and client)",
+      "author": "Francois Normandin",
+      "date": "2020-10-18T23:09:11Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "3de2d7412b857925a7743b3e145a0b151fd46022",
+      "short": "3de2d74",
+      "message": "Added a watchdog on the MQTT Base process",
+      "author": "Francois Normandin",
+      "date": "2020-10-18T16:27:17Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "31371046f0e0d4e260e096382816dca0ce73e47e",
+      "short": "3137104",
+      "message": "Completed the Local Queue Connection class with inbound and outbound queues + listener, handshake and challenge question demo",
+      "author": "Francois Normandin",
+      "date": "2020-10-18T15:45:45Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "18bdc72da4f8c5e48bb89d6f8dffd93ce589a0a2",
+      "short": "18bdc72",
+      "message": "Creation of MQTT Local Queue connection",
+      "author": "Francois Normandin",
+      "date": "2020-10-17T23:13:17Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "8e1c93323ce46bd4ee0ce20244a9412e0fb1ca10",
+      "short": "8e1c933",
+      "message": "Mark all code as Separate Compile Code from source",
+      "author": "Francois Normandin",
+      "date": "2020-10-17T21:20:58Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "8a6144dd689d4a5179b24d877ba4de0d7f135eb1",
+      "short": "8a6144d",
+      "message": "Close Sessions event now owned by session, not the caller",
+      "author": "Francois Normandin",
+      "date": "2020-10-17T21:11:27Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "3338b3d1688019e1f51fc93246fdc15496a3a0d9",
+      "short": "3338b3d",
+      "message": "Completed the abstraction of  Connection and ConnectionHandler",
+      "author": "Francois Normandin",
+      "date": "2020-10-17T17:42:37Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "5ca9db75c6b0c496fb08d84bb1ec3d747b97e132",
+      "short": "5ca9db7",
+      "message": "Replaced TCP Connection with more generic connection class in server, client and session",
+      "author": "Francois Normandin",
+      "date": "2020-10-17T13:50:43Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "051bd562fd9ccfdeef5c2517b1121093d2a8c7fe",
+      "short": "051bd56",
+      "message": "- Depends on MQTT Control Packets 3.1.1",
+      "author": "Francois Normandin",
+      "date": "2020-10-16T23:03:05Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "a4c21a37b21b2c03b8a2934408064d46ed274145",
+      "short": "a4c21a3",
+      "message": "Merge tag '1.0.5' into develop",
+      "author": "Francois Normandin",
+      "date": "2020-09-15T12:24:02Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "65c03e41e4610711dfeded4765559e942406b0a0",
+      "short": "65c03e4",
+      "message": "Merge branch 'release/1.0.5'",
+      "author": "Francois Normandin",
+      "date": "2020-09-15T12:24:00Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "bbf58128940725500f7ebf9d2f9df96abb4f9dda",
+      "short": "bbf5812",
+      "message": "built 1.0.5.6",
+      "author": "Francois Normandin",
+      "date": "2020-09-15T12:23:29Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "cb08822e79b075d118ff0ca743f161ae3560a360",
+      "short": "cb08822",
+      "message": "[Fix: 152] All asynchronously launched processs now have a reference to front panel to force in-memory for EXE builds (server and client)",
+      "author": "Francois Normandin",
+      "date": "2020-09-15T12:11:07Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "d0c80485597306dfbc55231efc0c867b6308c138",
+      "short": "d0c8048",
+      "message": "Added test for conformant client over at least one lossless, ordered protocol (TCP)",
+      "author": "Francois Normandin",
+      "date": "2020-09-07T21:16:18Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "58f355594a595d6580fdad22d9c3e7c4842bc0d1",
+      "short": "58f3555",
+      "message": "[MQTT-3.3.2-2] Publishing a topic containing a wildcard gets rejected with error 55015",
+      "author": "Francois Normandin",
+      "date": "2020-09-07T21:01:57Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "6c0d2f93a75836cbeff15d9be0e3c3e1959eeb40",
+      "short": "6c0d2f9",
+      "message": "[Fix: 149] Duplicate subscriptions will not duplicate the number of publish packets received",
+      "author": "Francois Normandin",
+      "date": "2020-09-07T20:40:56Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "c00171b3e0348029045ea3ca0265688f8013a1d0",
+      "short": "c00171b",
+      "message": "Merge tag '1.0.4' into develop",
+      "author": "Francois Normandin",
+      "date": "2020-09-07T19:59:54Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "0f0d9ec187363fb7ec540dc3c625315324f05f32",
+      "short": "0f0d9ec",
+      "message": "Merge branch 'release/1.0.4'",
+      "author": "Francois Normandin",
+      "date": "2020-09-07T19:59:52Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "a8dd86d9bcaf88e2d8c9e578e537c96ee02bf4ca",
+      "short": "a8dd86d",
+      "message": "built 1.0.4",
+      "author": "Francois Normandin",
+      "date": "2020-09-07T19:59:29Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "dea1703d1a16f74972181eb5e095ef936935ae25",
+      "short": "dea1703",
+      "message": "Session state restore",
+      "author": "Francois Normandin",
+      "date": "2020-09-07T19:28:32Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "8a01ac59854f09f6da66a9870f06a4baac064999",
+      "short": "8a01ac5",
+      "message": "- Optimized subscribe and unsubscribe process.",
+      "author": "Francois Normandin",
+      "date": "2020-09-07T18:56:27Z",
+      "project": true,
+      "dep_only": false
+    }
+  ],
+  "config": {
+    "use": "",
+    "actions": {},
+    "vipc": [],
+    "dragon": [],
+    "hasVipcList": false,
+    "hasDragonList": false
+  },
+  "vipc": [
+    {
+      "path": ".github/labview/antidoc/antidoc.vipc",
+      "role": "capability",
+      "capability": "antidoc",
+      "tooling": false,
+      "configured": true,
+      "monitored": true,
+      "monitorOn": [
+        "windows"
+      ],
+      "locked": false,
+      "packages": [
+        "graphbuilder-2.3.0.7",
+        "jki_lib_state_machine-2024.0.3.23",
+        "jki_rsc_toolkits_palette-1.1-1",
+        "wiresmith_technology_lib_g_cli-3.0.1.98",
+        "wovalab_lib_antidoc-3.3.1.879",
+        "wovalab_lib_antidoc_add_on_labview_project_documentation-3.2.0.358",
+        "wovalab_lib_antidoc_add_on_labview_toolkit_documentation-3.0.0.77",
+        "wovalab_lib_antidoc_cli-3.4.0.126",
+        "wovalab_lib_asciidoc_for_labview-1.12.1.492"
+      ],
+      "error": ""
+    },
+    {
+      "path": ".github/labview/vipm/ci-tooling.vipc",
+      "role": "core",
+      "capability": "",
+      "tooling": true,
+      "configured": true,
+      "monitored": true,
+      "monitorOn": [
+        "windows",
+        "linux"
+      ],
+      "locked": true,
+      "packages": [
+        "astemes_lib_lunit-2.0.13.6",
+        "astemes_lib_lunit_cli-1.6.1.23",
+        "astemes_lib_lunit_coverage_analysis_add_on-1.0.0.2",
+        "astemes_lib_lunit_global_fixture_add_on-1.0.5.4",
+        "astemes_lib_lunit_parameterized_add_on-1.1.10.8",
+        "astemes_lib_lunit_test_inheritance_add_on-1.0.5.4",
+        "dataflow_g_lib_g_image-0.5.0.1",
+        "felipefoz_lib_lv_rainbow_terminal-1.1.1.5",
+        "jki_lib_caraya-1.4.4.148",
+        "jki_lib_state_machine-2024.0.3.23",
+        "jki_rsc_toolkits_palette-1.1-1",
+        "labview_open_source_lib_epoch_datetime-1.3.0.8",
+        "labview_open_source_project_lib_labview_open_source_palette-1.0.2.7",
+        "labview_open_source_project_lib_openuri-1.4.0.13",
+        "lvos_lib_caraya_cli_extension-2.0.0.7",
+        "ni_lib_junit_results_api-1.0.1.6",
+        "ni_lib_simple_xml-1.0.0.4",
+        "ni_lib_utf_junit_report-1.0.1.43",
+        "oglib_array-6.0.1.20",
+        "oglib_error-6.0.0.26",
+        "oglib_file-6.0.2.28",
+        "oglib_lvdata-6.0.0.45",
+        "oglib_string-6.0.2.35",
+        "pnr_lib_caraya_junit_for_azure_pipelines-1.2.0.11",
+        "pnr_lib_junit_xml-1.0.0.4",
+        "sas_workshops_lib_lunit_for_g_cli-1.2.1.85",
+        "wiresmith_technology_lib_g_cli-3.0.1.98"
+      ],
+      "error": ""
+    },
+    {
+      "path": "MQTT Broker.vipc",
+      "role": "project",
+      "capability": "",
+      "tooling": false,
+      "configured": true,
+      "monitored": true,
+      "monitorOn": [
+        "windows",
+        "linux"
+      ],
+      "locked": false,
+      "packages": [
+        "labview_open_source_lib_data_manipulation-1.6.0.16",
+        "labview_open_source_lib_epoch_datetime-1.2.0.6",
+        "labview_open_source_lib_serializer-1.2.1.16",
+        "labview_open_source_lib_unicity-1.1.0.6",
+        "labview_open_source_project_lib_connection-1.1.0.10",
+        "labview_open_source_project_lib_labview_open_source_palette-1.0.2.7",
+        "labview_open_source_project_lib_mqtt_connection-4.1.2.32",
+        "labview_open_source_project_lib_mqtt_control_packets-3.2.0.13",
+        "labview_open_source_project_lib_serializer_base64-1.0.2.4",
+        "lvos_lib_adv_struct-1.0.0.1",
+        "lvos_lib_cryptography-1.0.1.11"
+      ],
+      "error": ""
+    },
+    {
+      "path": "UnitTesting Dependencies.vipc",
+      "role": "project",
+      "capability": "",
+      "tooling": false,
+      "configured": true,
+      "monitored": true,
+      "monitorOn": [
+        "windows",
+        "linux"
+      ],
+      "locked": false,
+      "packages": [
+        "jki_lib_caraya-1.3.0.134",
+        "jki_lib_state_machine-2018.0.7.45",
+        "jki_rsc_toolkits_palette-1.1-1",
+        "labview_open_source_lib_data_manipulation-1.5.0.15",
+        "labview_open_source_lib_serializer-1.2.1.16",
+        "labview_open_source_lib_unicity-1.1.0.6",
+        "labview_open_source_project_lib_connection-1.0.1.6",
+        "labview_open_source_project_lib_labview_open_source_palette-1.0.2.7",
+        "labview_open_source_project_lib_mqtt_client-4.0.0.14",
+        "labview_open_source_project_lib_mqtt_connection-4.0.0.25",
+        "labview_open_source_project_lib_mqtt_control_packets-3.1.3.9",
+        "labview_open_source_project_lib_mqtt_localqueue_connection-4.0.0.5",
+        "labview_open_source_project_lib_mqtt_tcp_connection-4.0.0.7",
+        "labview_open_source_project_lib_mqtt_websockets_connection-4.0.0.10",
+        "lib_gcentral_labview_ide_integration-1.0.0.1",
+        "mediamongrels_ltd_lib_websockets_api-2.0.1.40",
+        "oglib_appcontrol-4.1.0.7",
+        "oglib_array-4.1.1.14",
+        "oglib_error-4.2.0.23",
+        "oglib_file-4.0.1.22",
+        "oglib_lvdata-5.0.0.27",
+        "oglib_string-5.0.0.25"
+      ],
+      "error": ""
+    }
+  ],
+  "nipm": [
+    {
+      "name": "LabVIEW",
+      "source": "NI Package Manager",
+      "labview": true,
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "details": "LabVIEW runtime and development packages from the NI feeds."
+    },
+    {
+      "name": "VI Analyzer support",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-viawin-labview-support"
+        ],
+        "linux": [
+          "ni-vialin-labview-support"
+        ]
+      },
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "details": "NI VI Analyzer support package used by the analyzer runners."
+    },
+    {
+      "name": "NI Unit Test Framework",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-utf-labview-support"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "NI UTF support package used by the Windows unit-test runner."
+    },
+    {
+      "name": "JKI Dragon",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "jki-dragon"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "JKI Dragon dependency-management tooling installed from the LabVIEW 2026 NI Package Manager feed."
+    },
+    {
+      "name": "VI Package Manager",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-vipm"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "NI-published Windows VIPM package that enables VIPC application during worker builds. Linux installs VIPM from the native Debian package during its worker build."
+    }
+  ],
+  "dragon": {
+    "available": false,
+    "column": "windows",
+    "ready": false,
+    "health": "",
+    "manifest_version": "",
+    "files": [],
+    "install_set": [],
+    "conflicts": []
+  },
+  "system": [
+    {
+      "name": "VI Browser 2.0 toimages runner",
+      "source": "Repository Go code",
+      "path": ".github/labview/toimages/main.go",
+      "details": "Batch runner compiled from repo Go source; Linux uses the toimages GHCR image and Windows builds runner.exe in the workflow.",
+      "platforms": {
+        "windows": {
+          "present": true,
+          "label": "workflow-built"
+        },
+        "linux": {
+          "present": true,
+          "label": "toimages image"
+        }
+      }
+    },
+    {
+      "name": "lvctl render engine",
+      "source": "Repository Go code + embedded VIs",
+      "path": ".github/labview/toimages/_ni/labview/lvctl",
+      "details": "Renderer used by VI Browser 2.0 to drive LabVIEW and emit position-aware frame JSON.",
+      "platforms": {
+        "windows": {
+          "present": true,
+          "label": "workflow-built"
+        },
+        "linux": {
+          "present": true,
+          "label": "toimages image"
+        }
+      }
+    }
+  ],
+  "columns": [
+    {
+      "key": "windows",
+      "label": "Windows",
+      "platform": "windows",
+      "defaultTag": "latest",
+      "tag": "latest",
+      "ready": true,
+      "packages": [
+        "astemes_lib_lunit-2.0.13.6",
+        "astemes_lib_lunit_cli-1.6.1.23",
+        "astemes_lib_lunit_coverage_analysis_add_on-1.0.0.2",
+        "astemes_lib_lunit_global_fixture_add_on-1.0.5.4",
+        "astemes_lib_lunit_parameterized_add_on-1.1.10.8",
+        "astemes_lib_lunit_test_inheritance_add_on-1.0.5.4",
+        "dataflow_g_lib_g_image-0.5.0.1",
+        "felipefoz_lib_lv_rainbow_terminal-1.1.1.5",
+        "jki_lib_caraya-1.4.4.148",
+        "jki_lib_state_machine-2024.0.3.23",
+        "jki_rsc_toolkits_palette-1.1-1",
+        "labview_open_source_lib_epoch_datetime-1.3.0.8",
+        "labview_open_source_project_lib_labview_open_source_palette-1.0.2.7",
+        "labview_open_source_project_lib_openuri-1.4.0.13",
+        "lvos_lib_caraya_cli_extension-2.0.0.7",
+        "ni_lib_junit_results_api-1.0.1.6",
+        "ni_lib_simple_xml-1.0.0.4",
+        "ni_lib_utf_junit_report-1.0.1.43",
+        "oglib_array-6.0.1.20",
+        "oglib_error-6.0.0.26",
+        "oglib_file-6.0.2.28",
+        "oglib_lvdata-6.0.0.45",
+        "oglib_string-6.0.2.35",
+        "pnr_lib_caraya_junit_for_azure_pipelines-1.2.0.11",
+        "pnr_lib_junit_xml-1.0.0.4",
+        "sas_workshops_lib_lunit_for_g_cli-1.2.1.85",
+        "wiresmith_technology_lib_g_cli-3.0.1.98"
+      ],
+      "failed_packages": [],
+      "nipkg_ready": true,
+      "nipkg_packages": [],
+      "labview_version": "2026",
+      "version": "win-c6221662a861"
+    },
+    {
+      "key": "linux",
+      "label": "Linux",
+      "platform": "linux",
+      "defaultTag": "latest",
+      "tag": "latest",
+      "ready": true,
+      "packages": [],
+      "failed_packages": [],
+      "nipkg_ready": true,
+      "nipkg_packages": [],
+      "labview_version": "2026",
+      "version": "linux-4ce478ba9bb6"
+    }
+  ]
+}
