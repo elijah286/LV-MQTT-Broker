@@ -396,7 +396,7 @@
       "message": "Updated the password test after the fix for length-prefixed password in Connect packet",
       "author": "Francois Normandin",
       "date": "2020-12-12T23:56:58Z",
-      "project": false,
+      "project": true,
       "dep_only": false
     },
     {
@@ -873,7 +873,7 @@
       "message": "Merge branch 'release/1.0.4'",
       "author": "Francois Normandin",
       "date": "2020-09-07T19:59:52Z",
-      "project": false,
+      "project": true,
       "dep_only": false
     },
     {
